@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "Home.html",
-    "href": "Home.html",
-    "title": "Rakesh’s data science corner",
-    "section": "",
-    "text": "Welcome to my corner of the digital world! I’m passionate about data science and its game-changing applications in our lives. Here, I explore the magic of turning raw data into actionable insights. From predicting trends to optimizing decisions, join me on this exciting journey into the heart of data science."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "I am a Data Science professional with 13+ years of experience. I have worked extensively on Automated Valuation Models (AVM) for the Swiss Real Estate Market and also have a considerable amount of time spent in the consumer retail analytics sector. I have been active in various ML, text mining & DL for visual computing challenges. My passion relies on solving statistical challenges to optimize business needs.\nI have expertise in RStudio into production, data management with SQL & python programming."
+    "text": "I am a statistician turned data science leader with 16+ years of turning messy data into decisions across India and Switzerland. I lead a team of 10+ data scientists building Automated Valuation Models (AVMs) for the Swiss real-estate market, a regulated, business-critical setting where models must be accurate and explainable. Earlier in my career I worked in consumer retail analytics and media audience measurement, and I have been active in machine learning, text mining and GenAI.\nMy strengths are statistics at depth (M.Sc. Statistics, mixed/hierarchical models at ETH Zurich), production R (packages, REST APIs and Shiny apps with Docker, Kubernetes and Airflow), and python and SQL for data work."
+  },
+  {
+    "objectID": "about.html#work-with-me",
+    "href": "about.html#work-with-me",
+    "title": "About me",
+    "section": "Work with me",
+    "text": "Work with me\n\nConsulting: if you are stuck on a data or business challenge, I am happy to share what I have learned and give honest, practical advice.\nTraining and workshops: hands-on sessions in Statistics, R Programming, Machine Learning and GenAI and AI Agents for institutions, working professionals and freshers, online or in person in Kerala.\n\nMessage me on LinkedIn."
+  },
+  {
+    "objectID": "Home.html",
+    "href": "Home.html",
+    "title": "Rakesh’s data science corner",
+    "section": "",
+    "text": "Welcome! I am Rakesh Poduval, a data science leader and statistician. This is where I share practical statistics, R, machine learning and GenAI, and where I offer consulting, training and workshops.\nRead more about me, try resquisse (a free R Shiny chart builder, no R install needed), or message me on LinkedIn."
   }
 ]
