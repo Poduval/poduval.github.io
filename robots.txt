@@ -1,1 +1,1 @@
-Sitemap: https://Poduval.github.io/poduval.github.io/sitemap.xml
+Sitemap: https://poduval.github.io/sitemap.xml
