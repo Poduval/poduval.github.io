@@ -2,4 +2,6 @@
 title: "Rakesh's data science corner"
 ---
 
-Welcome to my corner of the digital world! I'm passionate about data science and its game-changing applications in our lives. Here, I explore the magic of turning raw data into actionable insights. From predicting trends to optimizing decisions, join me on this exciting journey into the heart of data science.
+Welcome! I am Rakesh Poduval, a data science leader and statistician. This is where I share practical statistics, R, machine learning and GenAI, and where I offer consulting, training and workshops.
+
+Read more [about me](about.qmd), try [resquisse](https://poduval.shinyapps.io/resquisse/) (a free R Shiny chart builder, no R install needed), or message me on [LinkedIn](https://www.linkedin.com/in/poduvalrakesh/).

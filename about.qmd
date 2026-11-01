@@ -2,6 +2,13 @@
 title: "About me"
 ---
 
-I am a Data Science professional with 13+ years of experience. I have worked extensively on Automated Valuation Models (AVM) for the Swiss Real Estate Market and also have a considerable amount of time spent in the consumer retail analytics sector. I have been active in various ML, text mining & DL for visual computing challenges. My passion relies on solving statistical challenges to optimize business needs. 
+I am a statistician turned data science leader with 16+ years of turning messy data into decisions across India and Switzerland. I lead a team of 10+ data scientists building Automated Valuation Models (AVMs) for the Swiss real-estate market, a regulated, business-critical setting where models must be accurate and explainable. Earlier in my career I worked in consumer retail analytics and media audience measurement, and I have been active in machine learning, text mining and GenAI.
 
-I have expertise in `RStudio` into production, data management with `SQL` & `python` programming. 
+My strengths are statistics at depth (M.Sc. Statistics, mixed/hierarchical models at ETH Zurich), production R (packages, REST APIs and Shiny apps with `Docker`, `Kubernetes` and `Airflow`), and `python` and `SQL` for data work.
+
+## Work with me
+
+* **Consulting:** if you are stuck on a data or business challenge, I am happy to share what I have learned and give honest, practical advice.
+* **Training and workshops:** hands-on sessions in Statistics, R Programming, Machine Learning and GenAI and AI Agents for institutions, working professionals and freshers, online or in person in Kerala.
+
+Message me on [LinkedIn](https://www.linkedin.com/in/poduvalrakesh/).
