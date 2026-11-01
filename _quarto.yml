@@ -1,37 +1,13 @@
 project:
   type: website
   render:
-    - "*.qmd"
+    - "index.qmd"
 
 website:
-  title: "poduval.github.io"
-  navbar:
-    search: true
-    pinned: true
-    collapse: true
-    left:
-      - text: Home
-        href: Home.qmd
-      - href: about.qmd
-    tools:
-      - icon: twitter
-        href: https://twitter.com/rakeshkpoduval
-      - icon: linkedin
-        href: https://www.linkedin.com/in/poduvalrakesh/
-      - icon: github
-        href: https://github.com/Poduval
-      - icon: three-dots-vertical
-        menu:
-          - text: dockerhub
-            url:  https://hub.docker.com/u/rakeshpoduval
-          - text: researchgate
-            url:  https://www.researchgate.net/profile/Rakesh-Poduval
-      
+  title: "Rakesh Poduval"
+  favicon: images/rakesh.jpg
+  site-url: https://poduval.github.io
+
 format:
   html:
     theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
