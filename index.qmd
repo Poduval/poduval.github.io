@@ -1,6 +1,6 @@
 ---
 pagetitle: "Rakesh Poduval | Data Science Leader & Statistician"
-description-meta: "Data science leader and statistician with 16+ years across India and Switzerland. Consulting, training and workshops in Statistics, R, Machine Learning and GenAI."
+description-meta: "Data science leader and statistician with 16+ years across India and Switzerland. Consulting, advice, training and talks in Statistics, R, Machine Learning and GenAI."
 page-layout: custom
 title-block-style: none
 toc: false
@@ -16,7 +16,7 @@ format:
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
         <meta property="og:title" content="Rakesh Poduval | Data Science Leader & Statistician">
-        <meta property="og:description" content="Consulting, training and workshops in Statistics, R, Machine Learning and GenAI. 16+ years across India and Switzerland.">
+        <meta property="og:description" content="Consulting, advice, training and talks in Statistics, R, Machine Learning and GenAI. 16+ years across India and Switzerland.">
         <meta property="og:image" content="https://poduval.github.io/images/rakesh.jpg">
         <meta name="theme-color" content="#ffffff">
         <script>try{var q=new URLSearchParams(location.search).get("theme");if(q)document.documentElement.dataset.theme=q;var m=localStorage.getItem("mode");if(!m)m=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.mode=m}catch(e){}</script>
@@ -27,7 +27,7 @@ format:
   <a class="brand" href="#top"><span class="brand-mark">RP</span> Rakesh Poduval</a>
   <nav>
     <a href="#about">About</a>
-    <a href="#services">Work with me</a>
+    <a href="#services">How I can help</a>
     <a href="#expertise">Expertise</a>
     <a href="#experience">Experience</a>
     <a href="#projects">Projects</a>
@@ -45,7 +45,7 @@ format:
       <span class="pill"><i class="bi bi-geo-alt-fill"></i> Palakkad, Kerala &middot; Available worldwide, remotely</span>
       <h1>Hi, I'm <span class="grad">Rakesh Poduval</span></h1>
       <p class="role">Data Science Leader &amp; Statistician</p>
-      <p class="lead">I turn messy data into decisions. 16+ years across India and Switzerland, leading a team of 10+ data scientists, and now helping more teams with <strong>consulting, training and workshops</strong> in Statistics, R, Machine Learning and GenAI.</p>
+      <p class="lead">I turn messy data into decisions. 16+ years across India and Switzerland, leading a team of 10+ data scientists, and happy to help with <strong>consulting, advice, training and talks</strong> in Statistics, R, Machine Learning and GenAI.</p>
       <div class="cta">
         <a class="btn primary" href="mailto:poduval.rakesh@icloud.com"><i class="bi bi-envelope-fill"></i> poduval.rakesh@icloud.com</a>
         <a class="btn ghost" href="https://www.linkedin.com/in/poduvalrakesh/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
@@ -84,7 +84,7 @@ format:
 
 <section id="services" class="section alt">
   <div class="wrap">
-    <p class="eyebrow">Work with me</p>
+    <p class="eyebrow">How I can help</p>
     <h2>How I can help</h2>
     <div class="cards three">
       <article class="card">
@@ -223,8 +223,8 @@ format:
 
 <section id="contact" class="contact">
   <div class="wrap">
-    <h2>Stuck on a data challenge, or planning a training session?</h2>
-    <p>I'd be happy to hear about it. Send me an email and I'll get back to you.</p>
+    <h2>Stuck on a challenge, or want to learn something?</h2>
+    <p>Happy to help. Send me a message.</p>
     <div class="cta center">
       <a class="btn primary big" href="mailto:poduval.rakesh@icloud.com"><i class="bi bi-envelope-fill"></i> poduval.rakesh@icloud.com</a>
     </div>
