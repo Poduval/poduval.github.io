@@ -161,3 +161,10 @@ a{text-decoration:none}
 .socials a{display:grid;place-items:center;width:46px;height:46px;border-radius:12px;font-size:1.2rem;color:#fff;border:1px solid rgba(255,255,255,.3);transition:.2s}
 .socials a:hover{background:#fff;color:#0f1111}
 .foot{text-align:center;padding:20px;font-size:.85rem;color:var(--muted);background:var(--bg);border-top:1px solid var(--line)}
+
+/* Projects: intro line, collaboration call-out, inline code */
+.lead-in{max-width:760px;color:var(--muted);margin:-12px 0 28px;font-size:1.02rem}
+.card code{font-size:.85em;padding:1px 5px;border-radius:5px;background:var(--brand-soft);color:var(--brand-ink)}
+.collab{margin-top:28px;padding:26px;border:1px dashed var(--brand);border-radius:14px;background:var(--card)}
+.collab h3{margin:0 0 8px;font-size:1.15rem;color:var(--ink)}
+.collab p{margin:0;color:var(--muted)}
