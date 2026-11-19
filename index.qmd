@@ -172,27 +172,62 @@ format:
   <div class="wrap">
     <p class="eyebrow">Projects</p>
     <h2>Things I've built</h2>
+    <p class="lead-in">Open-source work on GitHub, built to learn, teach and show how I approach problems: small, readable, tested and runnable. Everything below is public.</p>
     <div class="cards three">
-      <a class="card link" href="https://poduval.shinyapps.io/resquisse/" target="_blank" rel="noopener">
-        <div class="icon"><i class="bi bi-bar-chart-steps"></i></div>
-        <h3>resquisse <i class="bi bi-box-arrow-up-right"></i></h3>
-        <p>A free R Shiny chart builder. Drag and drop to build charts, no R install needed.</p>
-        <div class="tags"><span>R</span><span>Shiny</span><span>Data viz</span></div>
+      <a class="card link" href="https://github.com/Poduval/ai.agent.playground" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-diagram-3-fill"></i></div>
+        <h3>AI Agent Playground <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>A layered, teachable blueprint for building AI agents. FastAPI services are exposed as MCP tools, and an agent calls them in a tool-calling loop with conversation memory (in-process or Redis), then publishes itself over the A2A protocol with an Agent Card and bearer auth. Provider-agnostic (NVIDIA, Ollama, LiteLLM, OpenAI), with tests, a handbook and a learning path.</p>
+        <div class="tags"><span>Python</span><span>MCP</span><span>A2A</span><span>FastAPI</span><span>Redis</span></div>
+      </a>
+      <a class="card link" href="https://github.com/Poduval/llm-innovation-hub" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-layers-fill"></i></div>
+        <h3>LLM Innovation Hub <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>A sandbox for trying and comparing the latest LLMs. One <code>docker compose up</code> gives Open WebUI for chatting and a LiteLLM proxy that fronts NVIDIA NIM, Groq, Mistral and Hugging Face behind one OpenAI-compatible endpoint. A Python harness runs the same prompts across every provider for side-by-side comparison. Optional .NET Aspire dashboard.</p>
+        <div class="tags"><span>Docker</span><span>LiteLLM</span><span>Open WebUI</span><span>LLM evaluation</span></div>
+      </a>
+      <a class="card link" href="https://github.com/Poduval/coding_agent_r" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-terminal-fill"></i></div>
+        <h3>A coding agent in ~120 lines of R <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>Shows how little it takes to build an agent. Built on <code>ellmer</code> and the Groq API, the LLM reads, searches, edits and writes files and runs shell commands in your project, iterating until the task is done. Useful as a teaching example for R users moving into GenAI.</p>
+        <div class="tags"><span>R</span><span>ellmer</span><span>Tool use</span><span>Agents</span></div>
       </a>
       <article class="card">
-        <div class="icon"><i class="bi bi-diagram-3-fill"></i></div>
+        <div class="icon"><i class="bi bi-people-fill"></i></div>
         <h3>Multi-agent AI ecosystem</h3>
-        <p>Collaborating agents using LangGraph and CrewAI with planning, reasoning and tool use to solve compound tasks.</p>
-        <div class="tags"><span>GenAI</span><span>Agents</span></div>
+        <p>Collaborating agents built with LangGraph and CrewAI that plan, reason and use tools to solve compound tasks no single prompt can handle.</p>
+        <div class="tags"><span>LangGraph</span><span>CrewAI</span><span>Agents</span></div>
       </article>
       <article class="card">
         <div class="icon"><i class="bi bi-chat-square-text-fill"></i></div>
         <h3>Product insight generator</h3>
-        <p>A prompt-chained summariser that turns raw customer reviews into structured pros and cons.</p>
-        <div class="tags"><span>GenAI</span><span>NLP</span></div>
+        <p>A prompt-chained summariser that turns raw customer reviews into structured pros and cons, so teams can see what customers actually say without reading thousands of reviews.</p>
+        <div class="tags"><span>GenAI</span><span>NLP</span><span>Prompt chaining</span></div>
       </article>
+      <a class="card link" href="https://poduval.shinyapps.io/resquisse/" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-bar-chart-steps"></i></div>
+        <h3>resquisse and R in Docker <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>A free Shiny chart builder (drag and drop, no R install) built on esquisse and deployed on shinyapps.io. The same app, plus plumber (REST APIs), Rserve and Radiant, is packaged as ready-to-run Docker images on Docker Hub (rdockers).</p>
+        <div class="tags"><span>R</span><span>Shiny</span><span>Docker</span><span>plumber</span></div>
+      </a>
+      <a class="card link" href="https://github.com/Poduval/rputils" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-tools"></i></div>
+        <h3>rputils <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>My personal toolbox of R utilities for day-to-day work, still a work in progress. Today it has a <code>describe()</code> for quick descriptive statistics, diffs of text files, Excel workbooks, functions and RData objects, and helpers to load single objects from RData files and run scripts from the shell.</p>
+        <div class="tags"><span>R package</span><span>roxygen2</span><span>Work in progress</span></div>
+      </a>
+      <a class="card link" href="https://github.com/Poduval/EasyCalculator" target="_blank" rel="noopener">
+        <div class="icon"><i class="bi bi-calculator-fill"></i></div>
+        <h3>EasyCalculator and rshinytool <i class="bi bi-box-arrow-up-right"></i></h3>
+        <p>EasyCalculator is an R package for Indian income tax: bulk calculation for any financial year from 2022, old vs new regime comparisons, summaries and plots. rshinytool demonstrates how to ship Shiny apps (such as k-means clustering) inside an R package.</p>
+        <div class="tags"><span>R package</span><span>Finance</span><span>Shiny</span></div>
+      </a>
     </div>
-    <p class="more"><a href="https://github.com/Poduval" target="_blank" rel="noopener"><i class="bi bi-github"></i> More R packages, Shiny apps and code samples on GitHub <i class="bi bi-arrow-right"></i></a></p>
+    <div class="collab">
+      <h3>Want to build something together?</h3>
+      <p>I'm glad to collaborate on open-source work, contribute to R and GenAI tooling, co-teach a workshop or review an approach you're stuck on. If you have an idea, an issue to raise or a project that could use a statistician's eye, open an issue on any repo above or write to me.</p>
+    </div>
+    <p class="more"><a href="https://github.com/Poduval" target="_blank" rel="noopener"><i class="bi bi-github"></i> All repositories on GitHub <i class="bi bi-arrow-right"></i></a></p>
   </div>
 </section>
 
@@ -224,7 +259,7 @@ format:
 <section id="contact" class="contact">
   <div class="wrap">
     <h2>Stuck on a challenge, or want to learn something?</h2>
-    <p>Happy to help. Send me a message.</p>
+    <p>Happy to help with consulting, training, talks or a collaboration. Send me a short note on what you're working on, your timeline and what a good outcome looks like, and I'll reply with how I can help.</p>
     <div class="cta center">
       <a class="btn primary big" href="mailto:poduval.rakesh@icloud.com"><i class="bi bi-envelope-fill"></i> poduval.rakesh@icloud.com</a>
     </div>
